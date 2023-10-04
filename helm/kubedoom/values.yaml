@@ -39,6 +39,7 @@ securityContext: {}
 service:
   type: NodePort
   port: 5900
+  nodePort: 31200
 
 ingress:
   enabled: false
